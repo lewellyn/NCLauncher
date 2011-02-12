@@ -48,22 +48,20 @@
         android:layout_height="fill_parent"
 
         android:orientation="horizontal"
-        android:bottomOffset="4dip"
         android:handle="@+id/all_apps"
         android:content="@+id/content">
 
         <com.handlerexploit.launcher.HandleView
             android:id="@id/all_apps"
-            android:layout_width="56dip"
-            android:layout_height="fill_parent"
-
-            android:background="@drawable/handle"
+            android:layout_width="0dip"
+            android:layout_height="0dip"
 
             android:focusable="true"
             android:clickable="true"
 
             android:scaleType="center"
-            android:src="@drawable/handle_icon"
+            android:src="@drawable/clear_selector"
+            android:background="@drawable/clear"
 
             launcher:direction="vertical" />
 
@@ -87,6 +85,8 @@
             android:numColumns="5" />
 
     </SlidingDrawer>
+    
+    <include layout="@layout/styles" />
 
     <com.handlerexploit.launcher.DeleteZone
         android:id="@+id/delete_zone"
@@ -94,7 +94,7 @@
         android:layout_height="fill_parent"
 
         android:scaleType="center"
-        android:background="@drawable/delete_zone_selector"
+        android:background="@drawable/clear_selector"
 		android:src="@drawable/trashcan"
         android:layout_gravity="right|center_vertical"
         android:visibility="invisible"

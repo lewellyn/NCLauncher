@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+
+	android:id="@+id/delete_zone_relative" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:layout_gravity="bottom|center" >
+    
+<!-- Froyo theme -->
+<RelativeLayout
+		android:id="@+id/froyo_theme"
+		android:visibility="gone" 
+        android:layout_width="fill_parent"
+        android:layout_height="56dip"
+        android:layout_gravity="bottom|center"
+        android:paddingTop="2dip" >
+
+		<RelativeLayout android:id="@+id/froyo_center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" >
+
+			<ImageView
+            		android:layout_alignParentBottom="true" 
+	    			android:background="@drawable/froyo_center"
+            		android:paddingLeft="12dip"
+        			android:paddingRight="12dip"
+        			android:layout_width="58dip"
+        			android:layout_height="64dip"
+        			android:scaleType="center"
+        			android:focusable="true"
+        			android:clickable="true" />
+
+        	<ImageView
+            		android:background="@drawable/froyo_center_icon"
+	    			android:layout_height="wrap_content"
+	    			android:layout_width="wrap_content" 
+	    			android:layout_centerInParent="true"
+	    			android:onClick="onButtonDrawerOpen" />
+
+		</RelativeLayout>
+
+		<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/froyo_center">
+
+        	<ImageView
+            		android:layout_alignParentBottom="true" 
+            		android:background="@drawable/froyo_left"
+            		android:layout_marginLeft="4dip"
+            		android:paddingLeft="12dip"
+        			android:paddingRight="12dip"
+        			android:layout_width="64dip"
+        			android:layout_height="64dip"
+        			android:scaleType="center"
+        			android:focusable="true"
+        			android:clickable="true" />
+
+			<ImageView
+            		android:background="@drawable/froyo_left_icon"
+	    			android:layout_height="wrap_content"
+	    			android:layout_width="wrap_content" 
+	    			android:layout_centerInParent="true"
+	    			android:onClick="onButtonDialer" />
+
+		</RelativeLayout>
+
+		<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/froyo_center">
+
+        	<ImageView
+            		android:layout_alignParentBottom="true" 
+            		android:background="@drawable/froyo_right"
+            		android:layout_marginRight="4dip"
+            		android:paddingLeft="12dip"
+        			android:paddingRight="12dip"
+        			android:layout_width="64dip"
+        			android:layout_height="64dip"
+        			android:scaleType="center"
+        			android:focusable="true"
+        			android:clickable="true"  />
+
+			<ImageView
+            		android:background="@drawable/froyo_right_icon"
+	    			android:layout_height="wrap_content"
+	    			android:layout_width="wrap_content" 
+	    			android:layout_centerInParent="true"
+	    			android:onClick="onButtonBrowser" />
+	    			
+	</RelativeLayout>
+
+</RelativeLayout>
+
+<!-- Gingerbread theme -->
+<RelativeLayout
+		android:id="@+id/gingerbread_theme"
+		android:visibility="gone" 
+        android:layout_width="fill_parent"
+        android:layout_height="56dip"
+        android:layout_gravity="bottom|center"
+        android:paddingTop="2dip" >
+
+		<RelativeLayout android:id="@+id/gingerbread_center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" >
+
+			<ImageView
+            		android:layout_alignParentBottom="true" 
+	    			android:background="@drawable/gingerbread_center"
+            		android:paddingLeft="12dip"
+        			android:paddingRight="12dip"
+        			android:layout_width="58dip"
+        			android:layout_height="64dip"
+        			android:scaleType="center"
+        			android:focusable="true"
+        			android:clickable="true" />
+
+        	<ImageView
+            		android:background="@drawable/gingerbread_center_icon"
+	    			android:layout_height="wrap_content"
+	    			android:layout_width="wrap_content" 
+	    			android:layout_centerInParent="true"
+	    			android:onClick="onButtonDrawerOpen" />
+
+		</RelativeLayout>
+
+		<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/gingerbread_center">
+
+        	<ImageView
+            		android:layout_alignParentBottom="true" 
+            		android:background="@drawable/gingerbread_left"
+            		android:layout_marginLeft="4dip"
+            		android:paddingLeft="12dip"
+        			android:paddingRight="12dip"
+        			android:layout_width="64dip"
+        			android:layout_height="64dip"
+        			android:scaleType="center"
+        			android:focusable="true"
+        			android:clickable="true" />
+
+			<ImageView
+            		android:background="@drawable/gingerbread_left_icon"
+	    			android:layout_height="wrap_content"
+	    			android:layout_width="wrap_content" 
+	    			android:layout_centerInParent="true"
+	    			android:onClick="onButtonDialer" />
+
+		</RelativeLayout>
+
+		<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/gingerbread_center">
+
+        	<ImageView
+            		android:layout_alignParentBottom="true" 
+            		android:background="@drawable/gingerbread_right"
+            		android:layout_marginRight="4dip"
+            		android:paddingLeft="12dip"
+        			android:paddingRight="12dip"
+        			android:layout_width="64dip"
+        			android:layout_height="64dip"
+        			android:scaleType="center"
+        			android:focusable="true"
+        			android:clickable="true"  />
+
+			<ImageView
+            		android:background="@drawable/gingerbread_right_icon"
+	    			android:layout_height="wrap_content"
+	    			android:layout_width="wrap_content" 
+	    			android:layout_centerInParent="true"
+	    			android:onClick="onButtonBrowser" />
+	    			
+	</RelativeLayout>
+
+</RelativeLayout>
+
+<!-- Sense Theme -->
+<RelativeLayout 
+	android:id="@+id/sense_theme" 
+	android:visibility="gone" 
+	android:background="@drawable/sense_main_bar" 
+	android:layout_width="fill_parent" 
+	android:layout_height="52dip" 
+	android:layout_gravity="bottom|center" >
+
+	<RelativeLayout 
+		android:background="@drawable/sense_middle" 
+		android:focusable="false" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:layout_alignParentBottom="true" 
+		android:layout_centerHorizontal="true" 
+		android:clickable="true" 
+		android:onClick="onButtonDialer">
+
+		<TextView 
+			android:enabled="false" 
+			android:textSize="18.0dip" 
+			android:textColor="#ffffffff" 
+			android:gravity="center" 
+			android:paddingRight="0.0dip" 
+			android:paddingBottom="12.0dip" 
+			android:focusable="false" 
+			android:clickable="false" 
+			android:duplicateParentState="true" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="@string/phone" 
+			android:shadowColor="@android:color/black" 
+			android:shadowDx="1.0" 
+			android:shadowDy="1.0" 
+			android:shadowRadius="1.0" 
+			android:drawableLeft="@drawable/sense_middle_icon" 
+			android:layout_alignParentBottom="true" 
+			android:layout_centerHorizontal="true" />
+
+	</RelativeLayout>
+
+	<ImageButton 
+		android:background="@drawable/sense_left" 
+		android:focusable="false" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:layout_marginLeft="5.0dip" 
+		android:src="@drawable/sense_left_icon" 
+		android:scaleType="center" 
+		android:layout_alignParentLeft="true" 
+		android:clickable="true" 
+		android:onClick="onButtonDrawerOpen"/>
+
+	<ImageButton 
+		android:background="@drawable/sense_right" 
+		android:focusable="false" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:layout_marginRight="5.0dip" 
+		android:src="@drawable/sense_right_icon" 
+		android:scaleType="center" 
+		android:layout_alignParentRight="true" 
+		android:clickable="true" 
+		android:onClick="onButtonAddWidget" />
+
+</RelativeLayout>
+
+<!-- Espresso Theme -->
+<RelativeLayout 
+	android:id="@+id/espresso_theme" 
+	android:visibility="gone" 
+	android:layout_width="fill_parent" 
+	android:layout_height="50.0dip" 
+	android:layout_gravity="bottom|center" 
+	android:layout_centerHorizontal="true" >
+
+	<ImageButton 
+		android:gravity="center" 
+		android:background="@drawable/espresso_middle" 
+		android:paddingTop="6.6dip" 
+		android:paddingBottom="6.6dip" 
+		android:focusable="false" 
+		android:layout_width="154.6dip" 
+		android:layout_height="wrap_content" 
+		android:src="@drawable/espresso_middle_icon" 
+		android:scaleType="centerInside" 
+		android:layout_alignParentBottom="true" 
+		android:layout_centerHorizontal="true" 
+		android:onClick="onButtonDrawerOpen"/> <!-- I stopped here'ish -->
+
+	<ImageButton  
+		android:background="@drawable/espresso_left"
+		android:paddingLeft="0.6dip" 
+		android:paddingTop="6.6dip" 
+		android:paddingBottom="6.6dip" 
+		android:focusable="false" 
+		android:layout_width="76.6dip" 
+		android:layout_height="wrap_content" 
+		android:layout_marginLeft="6.0dip" 
+		android:src="@drawable/espresso_left_icon" 
+		android:scaleType="centerInside" 
+		android:layout_alignParentLeft="true" 
+		android:onClick="onButtonDialer" />
+
+	<ImageButton 
+		android:background="@drawable/espresso_right" 
+		android:paddingTop="6.6dip" 
+		android:paddingBottom="6.6dip" 
+		android:focusable="false" 
+		android:layout_width="76.6dip" 
+		android:layout_height="wrap_content" 
+		android:layout_marginRight="6.0dip" 
+		android:src="@drawable/espresso_right_icon" 
+		android:scaleType="centerInside" 
+		android:layout_alignParentRight="true"
+		android:onClick="onButtonAddWidget" />
+
+</RelativeLayout>
+
+<!-- Blur Theme -->
+<RelativeLayout 
+	android:id="@+id/blur_theme" 
+	android:visibility="gone" 
+	android:layout_gravity="bottom|center" 
+	android:orientation="horizontal" 
+	android:layout_width="fill_parent" 
+	android:layout_height="56.0dip">
+
+	<ImageView 
+		android:id="@+id/blur_middle" 
+		android:layout_centerHorizontal="true" 
+		android:focusable="false" 
+		android:clickable="true" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:src="@drawable/blur_middle" 
+		android:scaleType="center" 
+		android:onClick="onButtonDrawerOpen"/>
+
+	<ImageView 
+		android:layout_gravity="left|center" 
+		android:background="@drawable/blur_left" 
+		android:src="@drawable/blur_left_icon"
+		android:focusable="false" 
+		android:clickable="true" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:layout_marginLeft="4.0dip" 
+		android:layout_marginRight="4.0dip" 
+		android:layout_marginTop="4.0dip" 
+		android:layout_marginBottom="4.0dip" 
+		android:scaleType="centerInside" 
+		android:adjustViewBounds="false" 
+		android:onClick="onButtonDialer" 
+		android:layout_toLeftOf="@id/blur_middle" /><!-- android:src="@drawable/blur_call" -->
+
+	<ImageView 
+		android:layout_gravity="right|center" 
+		android:background="@drawable/blur_right" 
+		android:src="@drawable/blur_right_icon"
+		android:focusable="false" android:clickable="true" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:layout_marginLeft="4.0dip" 
+		android:layout_marginRight="4.0dip" 
+		android:layout_marginTop="4.0dip"
+		android:layout_marginBottom="4.0dip"  
+		android:scaleType="centerInside" 
+		android:adjustViewBounds="false" 
+		android:onClick="onButtonContacts" 
+		android:layout_toRightOf="@id/blur_middle" /><!-- android:src="@drawable/blur_contacts" -->
+
+</RelativeLayout>
+
+<!-- Ninja Theme -->
+<RelativeLayout 
+	android:id="@+id/ninja_theme" 
+	android:visibility="gone" 
+	android:layout_gravity="bottom|center" 
+	android:orientation="horizontal" 
+	android:layout_width="fill_parent" 
+	android:layout_height="56.0dip">
+	
+	    <FrameLayout 
+	    	android:layout_gravity="bottom" 
+	    	android:orientation="horizontal" 
+	    	android:layout_width="fill_parent" 
+	    	android:layout_height="56.0dip">
+        <ImageView 
+        	android:layout_gravity="left|center" 
+        	android:focusable="true" 
+        	android:clickable="true" 
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content" 
+        	android:layout_marginLeft="4.0dip" 
+        	android:layout_marginRight="4.0dip" 
+        	android:src="@drawable/ninja_left" 
+        	android:scaleType="centerInside" 
+        	android:adjustViewBounds="false" 
+        	android:onClick="onButtonDialer" />
+        <ImageView 
+        	android:layout_gravity="center" 
+        	android:focusable="true" 
+        	android:clickable="true" 
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content" 
+        	android:src="@drawable/ninja_middle" 
+        	android:scaleType="center" 
+        	android:onClick="onButtonDrawerOpen" />
+        <ImageView 
+        	android:layout_gravity="right|center" 
+        	android:focusable="true" 
+       	 	android:clickable="true" 
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content" 
+        	android:layout_marginLeft="4.0dip" 
+        	android:layout_marginRight="4.0dip" 
+        	android:src="@drawable/ninja_right" 
+        	android:scaleType="centerInside" 
+        	android:adjustViewBounds="false" 
+        	android:onClick="onButtonContacts" />
+    	</FrameLayout>
+</RelativeLayout>
+
+</RelativeLayout>

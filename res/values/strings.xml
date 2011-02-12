@@ -96,12 +96,12 @@
     <string name="menu_wallpaper">Wallpaper</string>
     <!-- Verb, menu item used to initiate global search -->
     <string name="menu_search">Search</string>
-    <!-- Noun, menu item used to bring down the notifications shade -->
-    <string name="menu_notifications">Notifications</string>
     <!-- Noun, menu item used to show the gestures settings -->
     <string name="menu_gestures">Gestures</string>
     <!-- Noun, menu item used to show the system settings -->
     <string name="menu_settings">Settings</string>
+    <!-- Noun, menu item used to show the custom dockbars -->
+    <string name="menu_customize" translatable="false">Customize</string>
 
     <!-- Permissions: -->
     <string name="permlab_install_shortcut">install shortcuts</string>
@@ -128,4 +128,20 @@
 
     <!-- Text to show user in place of a gadget when we can't display it properly -->
     <string name="gadget_error_text">Problem loading widget</string>
+    
+    <!-- Default URL -->
+    <string name="default_browser_url" translatable="false">http://www.google.com/</string>
+    
+    <!-- Sense theme -->
+    <string name="phone" translatable="false" >Phone</string>
+    
+    <!-- Themes -->
+    <string name="select_style" translatable="false">Select Dockbar Style</string>
+    <string name="froyo" translatable="false">Froyo</string>
+    <string name="gingerbread" translatable="false">Gingerbread</string>
+    <string name="sense" translatable="false">Sense</string>
+    <string name="espresso" translatable="false">Espresso</string>
+    <string name="blur" translatable="false">Blur</string>
+    <string name="ninja" translatable="false">Ninja</string>
+    
 </resources>
