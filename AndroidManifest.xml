@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
-    package="mobi.intuitit.android.p.launcher"
-    android:versionCode="3"
-    android:versionName="0.9.2">
+    android:versionCode="51" package="com.handlerexploit.launcher" android:versionName="1.X.X.X">
 
     <permission
         android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
@@ -30,13 +28,13 @@
         android:label="@string/permlab_write_settings"
         android:description="@string/permdesc_write_settings" />
     <permission
-        android:name="mobi.intuitit.android.p.launcher.permission.READ_SETTINGS"
+        android:name="com.handlerexploit.launcher.permission.READ_SETTINGS"
         android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
         android:protectionLevel="normal"
         android:label="@string/permlab_read_settings"
         android:description="@string/permdesc_read_settings" />
     <permission
-        android:name="mobi.intuitit.android.p.launcher.permission.WRITE_SETTINGS"
+        android:name="com.handlerexploit.launcher.permission.WRITE_SETTINGS"
         android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
         android:protectionLevel="normal"
         android:label="@string/permlab_write_settings"
@@ -61,9 +59,9 @@
     <uses-permission
         android:name="android.permission.BIND_APPWIDGET" />
     <uses-permission
-        android:name="mobi.intuitit.android.p.launcher.permission.READ_SETTINGS" />
+        android:name="com.handlerexploit.launcher.permission.READ_SETTINGS" />
     <uses-permission
-        android:name="mobi.intuitit.android.p.launcher.permission.WRITE_SETTINGS" />
+        android:name="com.handlerexploit.launcher.permission.WRITE_SETTINGS" />
     <uses-permission
         android:name="android.permission.INTERNET" />
     <uses-permission
@@ -125,9 +123,9 @@
         <!-- The settings provider contains Home's data, like the workspace favorites -->
         <provider
             android:name="LauncherProvider"
-            android:authorities="mobi.intuitit.android.p.launcher.settings"
-            android:writePermission="mobi.intuitit.android.p.launcher.permission.WRITE_SETTINGS"
-            android:readPermission="mobi.intuitit.android.p.launcher.permission.READ_SETTINGS" />
+            android:authorities="com.handlerexploit.launcher.settings"
+            android:writePermission="com.handlerexploit.launcher.permission.WRITE_SETTINGS"
+            android:readPermission="com.handlerexploit.launcher.permission.READ_SETTINGS" />
 
         <activity
             android:name="ScreenPrefActivity"

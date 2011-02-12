@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<favorites xmlns:launcher="http://schemas.android.com/apk/res/mobi.intuitit.android.p.launcher">
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.handlerexploit.launcher">
 
     <search
         launcher:screen="1"

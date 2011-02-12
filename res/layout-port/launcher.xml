@@ -10,16 +10,16 @@
         and limitations under the License.
     -->
 
-<mobi.intuitit.android.p.launcher.DragLayer
+<com.handlerexploit.launcher.DragLayer
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:launcher="http://schemas.android.com/apk/res/mobi.intuitit.android.p.launcher"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.handlerexploit.launcher"
 
     android:id="@+id/drag_layer"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
 
     <!-- The workspace contains 3 screens of cells -->
-    <mobi.intuitit.android.p.launcher.Workspace
+    <com.handlerexploit.launcher.Workspace
         android:id="@+id/workspace"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -36,7 +36,7 @@
             android:id="@+id/cell3"
             layout="@layout/workspace_screen" />
 
-    </mobi.intuitit.android.p.launcher.Workspace>
+    </com.handlerexploit.launcher.Workspace>
 
     <SlidingDrawer
         android:id="@+id/drawer"
@@ -48,7 +48,7 @@
         android:handle="@+id/all_apps"
         android:content="@+id/content">
 
-        <mobi.intuitit.android.p.launcher.HandleView
+        <com.handlerexploit.launcher.HandleView
             android:id="@id/all_apps"
             android:layout_width="fill_parent"
             android:layout_height="56dip"
@@ -63,7 +63,7 @@
 
             launcher:direction="horizontal" />
 
-        <mobi.intuitit.android.p.launcher.AllAppsGridView
+        <com.handlerexploit.launcher.AllAppsGridView
             android:id="@id/content"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
@@ -84,7 +84,7 @@
 
     </SlidingDrawer>
 
-    <mobi.intuitit.android.p.launcher.DeleteZone
+    <com.handlerexploit.launcher.DeleteZone
         android:id="@+id/delete_zone"
         android:layout_width="wrap_content"
         android:layout_height="49dip"
@@ -98,7 +98,7 @@
 
         launcher:direction="horizontal" />
 
-    <mobi.intuitit.android.p.launcher.ScreenIndicator
+    <com.handlerexploit.launcher.ScreenIndicator
         android:id="@+id/screen_indicator"
         android:layout_gravity="center|bottom"
         android:layout_height="3dp"
@@ -111,4 +111,4 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />
 
-</mobi.intuitit.android.p.launcher.DragLayer>
+</com.handlerexploit.launcher.DragLayer>

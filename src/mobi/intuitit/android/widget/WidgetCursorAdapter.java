@@ -42,8 +42,10 @@ public class WidgetCursorAdapter extends CursorAdapter {
 
     boolean mAllowRequery = true;
 
-    private ContentResolver mContentResolver;
-    private Intent mIntent;
+    @SuppressWarnings("unused")
+	private ContentResolver mContentResolver;
+    @SuppressWarnings("unused")
+	private Intent mIntent;
 
     class ItemMapping {
         int type;
@@ -86,7 +88,8 @@ public class WidgetCursorAdapter extends CursorAdapter {
     final int mItemActionUriIndex;
     ComponentName mAppWidgetProvider;
 
-    private Activity mActivity;
+    @SuppressWarnings("unused")
+	private Activity mActivity;
 
     /**
      * 

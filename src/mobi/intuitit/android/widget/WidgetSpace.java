@@ -756,7 +756,8 @@ public abstract class WidgetSpace extends ViewGroup {
      * @author bo
      * 
      */
-    class AnimationException extends Exception {
+    @SuppressWarnings("serial")
+	class AnimationException extends Exception {
 
         public String mAction;
 
@@ -767,14 +768,16 @@ public abstract class WidgetSpace extends ViewGroup {
         }
     }
 
-    class FrameAnimationException extends AnimationException {
+    @SuppressWarnings("serial")
+	class FrameAnimationException extends AnimationException {
         public FrameAnimationException(String msg) {
             super(LauncherIntent.Error.ERROR_FRAME_ANIMATION, msg);
         }
 
     }
 
-    class TweenAnimationException extends AnimationException {
+    @SuppressWarnings("serial")
+	class TweenAnimationException extends AnimationException {
 
         public TweenAnimationException(String msg) {
             super(LauncherIntent.Error.ERROR_TWEEN_ANIMATION, msg);

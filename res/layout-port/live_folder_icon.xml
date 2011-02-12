@@ -17,5 +17,5 @@
  */
 -->
 
-<mobi.intuitit.android.p.launcher.LiveFolderIcon xmlns:android="http://schemas.android.com/apk/res/android"
+<com.handlerexploit.launcher.LiveFolderIcon xmlns:android="http://schemas.android.com/apk/res/android"
  	style="@style/WorkspaceIcon.Portrait" />
