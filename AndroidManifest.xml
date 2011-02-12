@@ -70,18 +70,16 @@
     <application
         android:name="LauncherApplication"
         android:label="@string/application_name"
-        android:icon="@drawable/icon_lp"
+        android:icon="@drawable/icon"
         android:debuggable="true">
-
-        <!--         android:process="android.process.acore" -->
-
+        
         <activity
             android:name="Launcher"
             android:launchMode="singleTask"
             android:clearTaskOnLaunch="true"
             android:stateNotNeeded="true"
             android:theme="@android:style/Theme.Wallpaper.NoTitleBar"
-            android:screenOrientation="nosensor"
+           	android:screenOrientation="unspecified"
             android:windowSoftInputMode="stateUnspecified|adjustPan">
             <intent-filter>
                 <action
@@ -132,7 +130,6 @@
             android:screenOrientation="sensor"></activity>
 
     </application>
-    <uses-sdk
-        android:minSdkVersion="7" />
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="8"/> <!-- android:minSdkVersion="7" -->
 
 </manifest> 
