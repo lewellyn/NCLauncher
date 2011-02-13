@@ -3,10 +3,10 @@ Features:
 - 5 screens
 - Drop-to-Uninstall
 - Scrollable Widgets
+- Resizable Widgets
 - Five custom dockbar styles
 
 Simple is the idea, get over it.
 
 TODO:
-- Add Resizable Widgets to open source version
 - Fix onItemLongClick bug
