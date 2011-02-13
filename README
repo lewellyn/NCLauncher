@@ -1,12 +1,25 @@
+Simply Complex.
+
+HeLauncher is a home replacement for the mobile operating system known as Android. The home application is the center piece to the users entire Android experience. Device manufacturers like to modify the home application to give the user a different feel for their device, to make their specific device stand out against the crowd.
+
+What makes my home replacement different is I have gone and ripped apart multiple proprietary home applications from the manufactures and blended them together into one home application that can replicate them all with one button.
+
+The like the idea of simply complex so I ditched the massive options and settings menus that my competitors love so much and kept things lean and mean. I have added features that my competitors would make only available to the paid versions of their applications.
+
+HeLauncher is both free and open-sourced, you can find the source repository on github and if you have any input please feel free to provide it. Now on to the features list...
+
 Features:
 - Based off of Launcher+
 - 5 screens
-- Drop-to-Uninstall
+- Drop to Uninstall
 - Scrollable Widgets
-- Resizable Widgets
-- Five custom dockbar styles
+- Re-sizable Widgets
+- Screen indicators
+- Six custom dockbar styles
 
-Simple is the idea, get over it.	
+keywords: launcher launcher launcher launcher launcher launcher launcher launcher launcher launcher
+
+Simple is the idea, get over it.
 
 TODO:
 - Fix onItemLongClick bug
