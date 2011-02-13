@@ -20,4 +20,8 @@
     <dimen name="gesture_thumbnail_size">64dip</dimen>
     <dimen name="cell_width">80dip</dimen>
     <dimen name="cell_height">100dip</dimen>
+    <dimen name="choosertext_title_marginTop">6dip</dimen>
+    <dimen name="choosertext_position_marginBottom">6dip</dimen>
+    <dimen name="chooserapply_marginTop">8dip</dimen>
+    <dimen name="chooserapply_marginBottom">2dip</dimen>
 </resources>
