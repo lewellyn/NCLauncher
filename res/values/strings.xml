@@ -136,12 +136,7 @@
     <string name="phone" translatable="false" >Phone</string>
     
     <!-- Themes -->
-    <string name="select_style" translatable="false">Select Dockbar Style</string>
-    <string name="froyo" translatable="false">Froyo</string>
-    <string name="gingerbread" translatable="false">Gingerbread</string>
-    <string name="sense" translatable="false">Sense</string>
-    <string name="espresso" translatable="false">Espresso</string>
-    <string name="blur" translatable="false">Blur</string>
-    <string name="ninja" translatable="false">Ninja</string>
+    <string name="select_style" translatable="false">Select Style</string>
+    <string name="apply" translatable="false">Apply</string>
     
 </resources>

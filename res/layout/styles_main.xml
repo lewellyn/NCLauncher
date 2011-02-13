@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         style="@style/ChooserText.Title"
-        android:text="Select Launcher Style"
+        android:text="@string/select_style"
         />
 
     <TextView
@@ -66,7 +66,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Apply"
+        android:text="@string/apply"
         style="@style/ChooserApply"
         />
 
