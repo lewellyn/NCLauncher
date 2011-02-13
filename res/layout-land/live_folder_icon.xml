@@ -17,5 +17,5 @@
  */
 -->
 
-<com.handlerexploit.launcher.LiveFolderIcon xmlns:android="http://schemas.android.com/apk/res/android"
+<com.handlerexploit.launcher_reloaded.LiveFolderIcon xmlns:android="http://schemas.android.com/apk/res/android"
  	style="@style/WorkspaceIcon.Landscape" />

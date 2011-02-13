@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout	
 		xmlns:android="http://schemas.android.com/apk/res/android"
-    	xmlns:launcher="http://schemas.android.com/apk/res/com.handlerexploit.launcher"
+    	xmlns:launcher="http://schemas.android.com/apk/res/com.handlerexploit.launcher_reloaded"
         			android:id="@+id/relativegridview"
     				android:orientation="vertical"
     				android:layout_width="fill_parent"
     				android:layout_height="fill_parent">
     	
-    			<com.handlerexploit.launcher.AllAppsGridView
+    			<com.handlerexploit.launcher_reloaded.AllAppsGridView
     				android:id="@+id/app_apps_grid_view"
             		android:layout_width="fill_parent"
             		android:layout_height="fill_parent"

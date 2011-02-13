@@ -17,7 +17,7 @@
  */
 -->
 
-<com.handlerexploit.launcher.LiveFolder xmlns:android="http://schemas.android.com/apk/res/android"
+<com.handlerexploit.launcher_reloaded.LiveFolder xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical">
     
     <Button
@@ -39,4 +39,4 @@
         android:cacheColorHint="#ff333333"
         android:background="@drawable/box_launcher_bottom" />
 
-</com.handlerexploit.launcher.LiveFolder>
+</com.handlerexploit.launcher_reloaded.LiveFolder>

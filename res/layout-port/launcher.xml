@@ -10,16 +10,16 @@
         and limitations u"res/layout-port/launcher.xml"nder the License.
     -->
 
-<com.handlerexploit.launcher.DragLayer
+<com.handlerexploit.launcher_reloaded.DragLayer
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:launcher="http://schemas.android.com/apk/res/com.handlerexploit.launcher"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.handlerexploit.launcher_reloaded"
 
     android:id="@+id/drag_layer"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
 
     <!-- The workspace contains 3 screens of cells -->
-    <com.handlerexploit.launcher.Workspace
+    <com.handlerexploit.launcher_reloaded.Workspace
         android:id="@+id/workspace"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" >
@@ -40,11 +40,11 @@
             android:id="@+id/cell5"
             layout="@layout/workspace_screen" />
 
-    </com.handlerexploit.launcher.Workspace>
+    </com.handlerexploit.launcher_reloaded.Workspace>
     
     <include layout="@layout/styles" />
 
-    <com.handlerexploit.launcher.DeleteZone
+    <com.handlerexploit.launcher_reloaded.DeleteZone
         android:id="@+id/delete_zone"
         android:layout_width="fill_parent"
         android:layout_height="49dip"
@@ -57,10 +57,10 @@
 
         launcher:direction="horizontal" />
 
-    <com.handlerexploit.launcher.ScreenIndicator
+    <com.handlerexploit.launcher_reloaded.ScreenIndicator
         android:id="@+id/screen_indicator"
         android:layout_gravity="center|top"
-        android:layout_height="2dp"
+        android:layout_height="3dp"
         android:layout_width="fill_parent" />
 
     <ViewStub
@@ -70,4 +70,4 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />
 
-</com.handlerexploit.launcher.DragLayer>
+</com.handlerexploit.launcher_reloaded.DragLayer>

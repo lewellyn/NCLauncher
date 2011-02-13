@@ -16,7 +16,6 @@
 
 package org.adw.launcher;
 
-import com.handlerexploit.launcher.R;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Matrix;
@@ -28,6 +27,8 @@ import android.graphics.Region;
 import android.graphics.drawable.Drawable;
 import android.view.MotionEvent;
 import android.view.View;
+
+import com.handlerexploit.launcher_reloaded.R;
 
 // This class is used by CropImage to display a highlighted cropping rectangle
 // overlayed with the image. There are two coordinate spaces in use. One is
