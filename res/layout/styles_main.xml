@@ -49,16 +49,6 @@
             android:unselectedAlpha="0.5"
             />
 
-        <TextView
-            android:id="@+id/theme_name"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="305dp"
-            android:layout_gravity="top"
-            android:gravity="center_horizontal"
-            style="@style/ChooserText"
-            />
-
     </FrameLayout>
 
     <Button
