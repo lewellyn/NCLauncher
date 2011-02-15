@@ -22,6 +22,7 @@
             		android:paddingBottom="22dip" />
           
     			<ImageView
+    				android:id="@+id/home_button"
     				android:layout_width="42dip"
     				android:layout_height="42dip"
     				android:src="@drawable/home_button"
