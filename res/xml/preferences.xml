@@ -4,13 +4,23 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <CheckBoxPreference
-        android:title="Barrel Rolls"
+        android:title="@string/preference_1"
+        android:key="@string/preference_1"
         android:defaultValue="false" />
     <CheckBoxPreference
-        android:title="Unicorns"
+        android:title="@string/preference_2"
+        android:key="@string/preference_2"
         android:defaultValue="false" />
    	<CheckBoxPreference
-        android:title="Clouds"
+        android:title="@string/preference_3"
+        android:key="@string/preference_3"
         android:defaultValue="false" />
+        
+    <com.hlidskialf.android.preference.SeekBarPreference android:key="duration"
+        android:title="Screen count"
+        android:defaultValue="5"
+        android:text=" screens"
+        android:max="7"
+        /> 
 
 </PreferenceScreen>

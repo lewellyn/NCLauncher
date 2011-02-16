@@ -145,4 +145,9 @@
     <string name="blur" translatable="false">Blur</string>
     <string name="ninja" translatable="false">Ninja</string>
     
+    <!-- Themes -->
+    <string name="preference_1" translatable="false">Barrel Rolls</string>
+    <string name="preference_2" translatable="false">Unicorns</string>
+    <string name="preference_3" translatable="false">Clouds</string>
+    
 </resources>
