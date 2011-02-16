@@ -16,11 +16,11 @@
         android:key="@string/preference_3"
         android:defaultValue="false" />
         
-    <com.hlidskialf.android.preference.SeekBarPreference android:key="duration"
-        android:title="Screen count"
+    <com.hlidskialf.android.preference.SeekBarPreference
+        android:title="@string/seek_preference"
+        android:key="@string/seek_preference"
         android:defaultValue="5"
         android:text=" screens"
-        android:max="7"
-        /> 
+        android:max="7" /> 
 
 </PreferenceScreen>

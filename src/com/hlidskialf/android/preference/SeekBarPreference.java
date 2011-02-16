@@ -101,7 +101,7 @@ public class SeekBarPreference extends DialogPreference implements SeekBar.OnSee
   public void setProgress(int progress) { 
     mValue = progress;
     if (mSeekBar != null)
-      mSeekBar.setProgress(progress); 
+      mSeekBar.setProgress(progress);
   }
-  public int getProgress() { return mValue; }
+  public int getProgress() { return mValue -1; }
 }
