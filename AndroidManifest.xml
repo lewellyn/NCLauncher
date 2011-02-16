@@ -129,8 +129,9 @@
             android:readPermission="com.handlerexploit.launcher_reloaded.permission.READ_SETTINGS" />
 
         <activity
-            android:name="ScreenPrefActivity"
-            android:screenOrientation="sensor" />
+            android:name="Easter"
+            android:screenOrientation="unspecified"
+            android:theme="@android:style/Theme.Dialog" />
             
         <activity android:name=".Styles"
             android:theme="@style/Chooser"
