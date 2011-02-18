@@ -26,3 +26,10 @@ TODO:
 - New dockbar provider
 - Finish hidden preferences
 - Touch style
+
+
+Notes:
+private WindowManager.LayoutParams createPopupLayout(IBinder token) {
+public int windowAnimations
+This must be a system resource :
+mPopupWindow.setAnimationStyle(R.style.Animation_Popup);
