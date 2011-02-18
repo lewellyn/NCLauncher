@@ -22,4 +22,7 @@ keywords: launcher launcher launcher launcher launcher launcher launcher launche
 Simple is the idea, get over it.
 
 TODO:
-- Fix onItemLongClick bug
+- New app drawer method
+- New dockbar provider
+- Finish hidden preferences
+- Touch style
