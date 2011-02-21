@@ -21,12 +21,13 @@ keywords: launcher launcher launcher launcher launcher launcher launcher launche
 
 Simple is the idea, get over it.
 
-TODO:
-- New app drawer method
+TODO: (Not in order)
+- New application drawer method
+- New 3D application drawer in RenderScript
 - New dockbar provider
 - Finish hidden preferences
-- Touch style
-
+- Touch, Cupcake, Slate and Sparkle style(s)
+- Hide notification bar gestures
 
 Notes:
 private WindowManager.LayoutParams createPopupLayout(IBinder token) {
