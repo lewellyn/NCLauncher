@@ -367,4 +367,59 @@
     	</FrameLayout>
 </RelativeLayout>
 
+<!-- Slate Theme -->
+<RelativeLayout 
+	android:id="@+id/slate_theme" 
+	android:visibility="gone" 
+	android:layout_gravity="right" 
+	android:orientation="vertical" 
+	android:layout_alignParentRight="true"
+	android:layout_width="56.0dip" 
+	android:layout_height="fill_parent">
+	
+	
+	<RelativeLayout 
+		android:id="@+id/slate_middle"
+		android:gravity="center" 
+		android:background="@drawable/slate_middle" 
+		android:focusable="false" 
+		android:layout_width="wrap_content" 
+		android:layout_height="143.6dip" 
+		android:src="@drawable/slate_middle_icon" 
+		android:scaleType="centerInside" 
+		android:layout_centerVertical="true" 
+		android:onClick="onButtonDialer">
+		
+		<ImageView
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:src="@drawable/slate_middle_icon"
+			android:layout_centerInParent="true" />
+			
+	</RelativeLayout>
+		
+	<ImageButton 
+		android:background="@drawable/slate_left" 
+		android:focusable="false" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:src="@drawable/slate_left_icon" 
+		android:scaleType="center" 
+		android:clickable="true" 
+		android:onClick="onButtonDrawerOpen"
+		android:layout_below="@id/slate_middle" />
+
+	<ImageButton 
+		android:background="@drawable/slate_right" 
+		android:focusable="false" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:src="@drawable/slate_right_icon" 
+		android:scaleType="center" 
+		android:clickable="true" 
+		android:onClick="onButtonAddWidget"
+		android:layout_above="@id/slate_middle" />
+		
+</RelativeLayout>
+
 </RelativeLayout>
