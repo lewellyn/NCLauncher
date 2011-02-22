@@ -490,6 +490,23 @@
 	android:layout_width="56.0dip" 
 	android:layout_height="fill_parent">
 	
+	<com.handlerexploit.launcher_reloaded.CellLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.handlerexploit.launcher_reloaded"
+
+    android:layout_width="fill_parent"
+    android:layout_height="100dip"
+
+    launcher:cellWidth="80dip"
+    launcher:cellHeight="100dip"
+    launcher:longAxisStartPadding="0dip"
+    launcher:longAxisEndPadding="55dip"
+    launcher:shortAxisStartPadding="0dip"
+    launcher:shortAxisEndPadding="0dip"
+    launcher:shortAxisCells="4"
+    launcher:longAxisCells="4" />
+    
+	<!-- 
 	<RelativeLayout 
 		android:id="@+id/blackboard_middle"
 		android:gravity="center" 
@@ -535,7 +552,7 @@
 		android:clickable="true" 
 		android:onClick="onButtonAddWidget"
 		android:layout_above="@id/blackboard_middle" />
-	
+	-->
 </RelativeLayout>
 
 </RelativeLayout>

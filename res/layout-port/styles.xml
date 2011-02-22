@@ -536,7 +536,7 @@
 	android:orientation="horizontal" 
 	android:layout_width="fill_parent" 
 	android:layout_height="50.0dip">
-	
+
 	<RelativeLayout 
 		android:id="@+id/blackboard_middle"
 		android:gravity="center" 
