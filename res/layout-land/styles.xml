@@ -383,7 +383,7 @@
 		android:gravity="center" 
 		android:background="@drawable/slate_middle" 
 		android:focusable="false" 
-		android:layout_width="wrap_content" 
+		android:layout_width="56dip" 
 		android:layout_height="143.6dip" 
 		android:src="@drawable/slate_middle_icon" 
 		android:scaleType="centerInside" 
@@ -401,7 +401,7 @@
 	<ImageButton 
 		android:background="@drawable/slate_left" 
 		android:focusable="false" 
-		android:layout_width="wrap_content" 
+		android:layout_width="56dip" 
 		android:layout_height="wrap_content" 
 		android:src="@drawable/slate_left_icon" 
 		android:scaleType="center" 
@@ -412,7 +412,7 @@
 	<ImageButton 
 		android:background="@drawable/slate_right" 
 		android:focusable="false" 
-		android:layout_width="wrap_content" 
+		android:layout_width="56dip" 
 		android:layout_height="wrap_content" 
 		android:src="@drawable/slate_right_icon" 
 		android:scaleType="center" 
@@ -515,7 +515,7 @@
 	<ImageButton 
 		android:background="@drawable/blackboard_left" 
 		android:focusable="false" 
-		android:layout_width="wrap_content" 
+		android:layout_width="56dip" 
 		android:layout_height="wrap_content" 
 		android:paddingLeft="5dip"
 		android:src="@drawable/slate_left_icon" 
@@ -527,7 +527,7 @@
 	<ImageButton 
 		android:background="@drawable/blackboard_right" 
 		android:focusable="false" 
-		android:layout_width="wrap_content" 
+		android:layout_width="56dip" 
 		android:layout_height="wrap_content" 
 		android:paddingLeft="5dip"
 		android:src="@drawable/slate_right_icon" 

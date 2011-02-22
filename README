@@ -15,7 +15,7 @@ Features:
 - Scrollable Widgets
 - Re-sizable Widgets
 - Screen indicators
-- Six custom dockbar styles
+- Nine custom dockbar styles
 
 keywords: launcher launcher launcher launcher launcher launcher launcher launcher launcher launcher
 
@@ -26,8 +26,7 @@ TODO: (Not in order)
 - New 3D application drawer in RenderScript
 - New dockbar provider
 - Finish hidden preferences
-- Touch, Cupcake, Slate and Sparkle style(s)
-- Hide notification bar gestures
+- Touch and Sparkle style(s)
 
 Notes:
 private WindowManager.LayoutParams createPopupLayout(IBinder token) {
