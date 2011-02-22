@@ -1,7 +1,3 @@
 bin
 gen
 keystore
-default.properties
-assets
-.settings
-.project
