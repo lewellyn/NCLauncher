@@ -142,6 +142,7 @@
     <string name="froyo" translatable="false">Froyo</string>
     <string name="sense" translatable="false">Sense</string>
     <string name="slate" translatable="false">Slate</string>
+    <string name="music" translatable="false">Music</string>
     <string name="espresso" translatable="false">Espresso</string>
     <string name="blur" translatable="false">Blur</string>
     <string name="ninja" translatable="false">Ninja</string>

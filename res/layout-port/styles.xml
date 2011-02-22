@@ -458,4 +458,74 @@
 	
 </RelativeLayout>
 
+<!-- Music Theme -->
+<RelativeLayout 
+	android:id="@+id/music_theme" 
+	android:visibility="gone" 
+	android:background="@drawable/music_mainbar"
+	android:layout_gravity="bottom|center" 
+	android:orientation="horizontal" 
+	android:layout_width="fill_parent" 
+	android:layout_height="50.0dip">
+	
+	<RelativeLayout 
+		android:id="@+id/music_middle"
+		android:gravity="center" 
+		android:background="@drawable/music_middle" 
+		android:focusable="false" 
+		android:paddingTop="3dip"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:scaleType="centerInside" 
+		android:layout_alignParentBottom="true" 
+		android:layout_centerHorizontal="true" 
+		android:onClick="onButtonDialer">
+		
+		<TextView 
+			android:enabled="false" 
+			android:textSize="18.0dip" 
+			android:textColor="#ffffffff" 
+			android:gravity="center" 
+			android:focusable="false" 
+			android:clickable="false" 
+			android:duplicateParentState="true" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="@string/phone" 
+			android:shadowColor="@android:color/black" 
+			android:shadowDx="1.0" 
+			android:shadowDy="1.0" 
+			android:shadowRadius="1.0" 
+			android:drawableLeft="@drawable/slate_middle_icon" 
+			android:layout_alignParentBottom="true" 
+			android:layout_centerHorizontal="true" />
+		
+	</RelativeLayout>
+
+	<ImageButton 
+		android:background="@drawable/music_left" 
+		android:focusable="false" 
+		android:paddingTop="10dip"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:src="@drawable/slate_left_icon" 
+		android:scaleType="center" 
+		android:layout_toLeftOf="@id/music_middle" 
+		android:clickable="true" 
+		android:onClick="onButtonDrawerOpen"/>
+
+	<ImageButton 
+		android:background="@drawable/music_right" 
+		android:focusable="false" 
+		android:paddingTop="10dip"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:src="@drawable/slate_right_icon" 
+		android:scaleType="center" 
+		android:layout_toRightOf="@id/music_middle" 
+		android:clickable="true" 
+		android:onClick="onButtonAddWidget" />
+	
+</RelativeLayout>
+
 </RelativeLayout>
