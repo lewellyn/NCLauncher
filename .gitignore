@@ -1,7 +1,6 @@
 bin
 gen
 keystore
-.gitignore
 default.properties
 assets
 .settings
