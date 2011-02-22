@@ -480,4 +480,62 @@
 	
 </RelativeLayout>
 
+<!-- Blackboard Theme -->
+<RelativeLayout 
+	android:id="@+id/blackboard_theme" 
+	android:visibility="gone" 
+	android:layout_gravity="right" 
+	android:orientation="vertical"
+	android:layout_alignParentRight="true"
+	android:layout_width="56.0dip" 
+	android:layout_height="fill_parent">
+	
+	<RelativeLayout 
+		android:id="@+id/blackboard_middle"
+		android:gravity="center" 
+		android:background="@drawable/blackboard_middle" 
+		android:focusable="false" 
+		android:layout_width="56dip" 
+		android:layout_height="143.6dip" 
+		android:layout_alignParentRight="true"
+		android:src="@drawable/slate_middle_icon" 
+		android:scaleType="centerInside" 
+		android:layout_centerVertical="true" 
+		android:onClick="onButtonDialer">
+		
+		<ImageView
+			android:paddingLeft="5dip"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:src="@drawable/slate_middle_icon"
+			android:layout_centerInParent="true" />
+			
+	</RelativeLayout>
+		
+	<ImageButton 
+		android:background="@drawable/blackboard_left" 
+		android:focusable="false" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:paddingLeft="5dip"
+		android:src="@drawable/slate_left_icon" 
+		android:scaleType="center" 
+		android:clickable="true" 
+		android:onClick="onButtonDrawerOpen"
+		android:layout_below="@id/blackboard_middle" />
+
+	<ImageButton 
+		android:background="@drawable/blackboard_right" 
+		android:focusable="false" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:paddingLeft="5dip"
+		android:src="@drawable/slate_right_icon" 
+		android:scaleType="center" 
+		android:clickable="true" 
+		android:onClick="onButtonAddWidget"
+		android:layout_above="@id/blackboard_middle" />
+	
+</RelativeLayout>
+
 </RelativeLayout>
