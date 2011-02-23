@@ -83,7 +83,7 @@
         <item name="android:paddingRight">30dp</item>
     </style>
     
-    <style name="Chooser" parent="android:style/Theme.NoTitleBar.Fullscreen">
+    <style name="Chooser" parent="android:style/Theme.NoTitleBar">
         <item name="android:windowBackground">@drawable/chooser_bg</item>
     </style>
 
