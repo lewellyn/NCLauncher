@@ -39,7 +39,7 @@
         <include
             android:id="@+id/cell5"
             layout="@layout/workspace_screen" />
-
+            
     </com.handlerexploit.launcher_reloaded.Workspace>
     
     <include layout="@layout/styles" />

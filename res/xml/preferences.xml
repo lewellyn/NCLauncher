@@ -5,22 +5,19 @@
 
     <CheckBoxPreference
         android:title="@string/preference_1"
-        android:key="@string/preference_1"
-        android:defaultValue="false" />
-    <CheckBoxPreference
-        android:title="@string/preference_2"
-        android:key="@string/preference_2"
-        android:defaultValue="false" />
-   	<CheckBoxPreference
-        android:title="@string/preference_3"
-        android:key="@string/preference_3"
+        android:key="preference_1"
         android:defaultValue="false" />
         
-    <!-- <com.hlidskialf.android.preference.SeekBarPreference
-        android:title="@string/seek_preference"
-        android:key="@string/seek_preference"
-        android:defaultValue="5"
-        android:text=" screens"
-        android:max="7" /> -->
+    <ListPreference
+        android:title="@string/preference_2"
+        android:key="preference_2"
+        android:entries="@array/screen_number_entries"
+        android:entryValues="@array/screen_number_entries"
+        android:defaultValue="5" />
+        
+   	<!-- <CheckBoxPreference
+        android:title="@string/preference_3"
+        android:key="@string/preference_3"
+        android:defaultValue="false" /> -->
 
 </PreferenceScreen>

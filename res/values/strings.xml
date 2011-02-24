@@ -149,9 +149,8 @@
     <string name="ninja" translatable="false">Ninja</string>
     
     <!-- Themes -->
-    <string name="preference_1" translatable="false">Barrel Rolls</string>
-    <string name="preference_2" translatable="false">Unicorns</string>
+    <string name="preference_1" translatable="false">Auto-rotate screen</string>
+    <string name="preference_2" translatable="false">Home screen(s) [Does nothing]</string>
     <string name="preference_3" translatable="false">Clouds</string>
-    <string name="seek_preference" translatable="false">Screen count</string>
     
 </resources>
