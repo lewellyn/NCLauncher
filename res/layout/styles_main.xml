@@ -50,14 +50,34 @@
             />
 
     </FrameLayout>
-
-    <Button
-        android:id="@+id/apply"
-        android:layout_width="wrap_content"
+    
+    <RelativeLayout
+    	android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="@string/apply"
-        style="@style/ChooserApply"
-        />
+        android:layout_gravity="center_horizontal">
+
+    	<Button
+        	android:id="@+id/apply"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_centerHorizontal="true"
+        	android:text="@string/apply"
+        	style="@style/ChooserApply" />
+        
+        <ImageView
+        	android:id="@+id/preferences"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:background="@android:drawable/ic_menu_preferences" />
+        	
+        <ImageView
+        	android:id="@+id/help_about"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentRight="true"
+        	android:background="@android:drawable/ic_menu_help" />
+        	
+    </RelativeLayout>
 
 </LinearLayout>

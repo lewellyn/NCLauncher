@@ -129,7 +129,7 @@
             android:readPermission="com.handlerexploit.launcher_reloaded.permission.READ_SETTINGS" />
 
         <activity
-            android:name="Easter"
+            android:name="Preferences"
             android:screenOrientation="unspecified"
             android:theme="@android:style/Theme.Dialog" />
             
