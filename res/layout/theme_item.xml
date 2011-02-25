@@ -31,7 +31,7 @@
         android:id="@+id/theme_name"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="310dp"
+        android:layout_marginTop="315dp"
         android:layout_gravity="top|center_horizontal"
         style="@style/ChooserText" />
 
