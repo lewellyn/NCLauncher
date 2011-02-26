@@ -58,15 +58,15 @@
         
         <ImageView
         	android:id="@+id/preferences"
-        	android:layout_width="wrap_content"
-        	android:layout_height="wrap_content"
+        	android:layout_width="0dip"
+        	android:layout_height="0dip"
         	android:layout_alignParentLeft="true"
         	android:background="@drawable/ic_menu_preferences" />
         	
         <ImageView
         	android:id="@+id/help_about"
-        	android:layout_width="wrap_content"
-        	android:layout_height="wrap_content"
+        	android:layout_width="0dip"
+        	android:layout_height="0dip"
         	android:layout_alignParentRight="true"
         	android:background="@drawable/ic_menu_help" />
 

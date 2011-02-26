@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.handlerexploit.launcher_reloaded" android:versionCode="57" android:versionName="1.4.8.5">
+    package="com.handlerexploit.launcher_reloaded" android:versionCode="58" android:versionName="1.4.9">
 
     <permission
         android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
@@ -140,7 +140,7 @@
             
 		<uses-library android:name="android.test.runner" />
     </application>
-    <uses-sdk android:minSdkVersion="7" />
+    <uses-sdk android:minSdkVersion="7" android:maxSdkVersion="10" />
     
     <instrumentation android:name="android.test.InstrumentationTestRunner" android:targetPackage="com.handlerexploit.launcher_reloaded" android:label="HeLauncher Tests" />
     
