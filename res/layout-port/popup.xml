@@ -7,7 +7,7 @@
     				android:layout_width="fill_parent"
     				android:layout_height="fill_parent">
     	
-    			<com.handlerexploit.launcher_reloaded.AllAppsGridView
+    			<org.adw.launcher.AllAppsGridView
     				android:id="@+id/app_apps_grid_view"
             		android:layout_width="fill_parent"
             		android:layout_height="fill_parent"
@@ -18,8 +18,8 @@
             		android:listSelector="@drawable/grid_selector"
             		android:verticalSpacing="10dip"
             		android:numColumns="4"
-            		android:paddingTop="22dip"
-            		android:paddingBottom="25dip" />
+            		android:paddingTop="0dip"
+            		android:paddingBottom="0dip" />
           
     			<ImageView
     				android:layout_width="wrap_content"
