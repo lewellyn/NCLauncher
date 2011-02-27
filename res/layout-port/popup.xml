@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout	
+<com.handlerexploit.launcher_reloaded.AnimatedDrawer
 		xmlns:android="http://schemas.android.com/apk/res/android"
     	xmlns:launcher="http://schemas.android.com/apk/res/com.handlerexploit.launcher_reloaded"
         			android:id="@+id/relativegridview"
@@ -28,4 +28,4 @@
     				android:onClick="windowDismiss"
     				android:layout_alignParentBottom="true"
     				android:layout_centerInParent="true"/>
-</RelativeLayout>
+</com.handlerexploit.launcher_reloaded.AnimatedDrawer>

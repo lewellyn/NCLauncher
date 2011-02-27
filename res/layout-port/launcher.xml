@@ -69,5 +69,7 @@
         android:layout="@layout/screen_switcher"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />
+        
+    <include layout="@layout/popup" />
 
 </com.handlerexploit.launcher_reloaded.DragLayer>
