@@ -5,21 +5,28 @@
         			android:id="@+id/relativegridview"
     				android:orientation="vertical"
     				android:layout_width="fill_parent"
-    				android:layout_height="fill_parent">
-    	
-    			<org.adw.launcher.AllAppsGridView
-    				android:id="@+id/app_apps_grid_view"
-            		android:layout_width="fill_parent"
+    				android:layout_height="fill_parent"
+    				android:background="@android:color/black" >
+    				
+    			<RelativeLayout
+    				android:layout_width="fill_parent"
             		android:layout_height="fill_parent"
-          		  	launcher:texture="@drawable/black_fill"
-            		android:persistent="true"
-					android:scrollbars="none"
-            		android:drawSelectorOnTop="false"
-            		android:listSelector="@drawable/grid_selector"
-            		android:verticalSpacing="10dip"
-            		android:numColumns="4"
-            		android:paddingTop="0dip"
-            		android:paddingBottom="0dip" />
+            		android:paddingBottom="22dip">
+            		
+            		<org.adw.launcher.AllAppsGridView
+    					android:id="@+id/app_apps_grid_view"
+            			android:layout_width="fill_parent"
+            			android:layout_height="fill_parent"
+            			android:persistent="true"
+						android:scrollbars="none"
+            			android:drawSelectorOnTop="false"
+            			android:listSelector="@drawable/grid_selector"
+            			android:verticalSpacing="10dip"
+            			android:numColumns="4"
+            			android:paddingTop="0dip"
+            			android:paddingBottom="0dip" />
+            			
+            	</RelativeLayout>
           
     			<ImageView
     				android:layout_width="wrap_content"

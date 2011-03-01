@@ -22,10 +22,9 @@ keywords: launcher launcher launcher launcher launcher launcher launcher launche
 Simple is the idea, get over it.
 
 TODO: (Not in order)
-- New application drawer method
 - New 3D application drawer in RenderScript
 - New dockbar provider
-- Finish hidden preferences
+- Finish preferences
 - Touch and Sparkle style(s)
 
 Notes:
