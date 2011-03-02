@@ -108,9 +108,9 @@ public class AllAppsGridView extends GridView implements AdapterView.OnItemClick
 
 	@SuppressWarnings("rawtypes")
 	public void onItemClick(AdapterView parent, View v, int position, long id) {
-		ApplicationInfo app = (ApplicationInfo) parent
-				.getItemAtPosition(position);
+		ApplicationInfo app = (ApplicationInfo) parent.getItemAtPosition(position);
 		mLauncher.startActivitySafely(app.intent);
+		mLauncher.AnimatedDrawerClose(true);
 	}
 
 	public boolean onItemLongClick(AdapterView<?> parent, View view,
