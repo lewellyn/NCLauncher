@@ -8,6 +8,11 @@
         android:key="preference_1"
         android:defaultValue="false" />
         
+    <CheckBoxPreference
+        android:title="@string/preference_3"
+        android:key="preference_3"
+        android:defaultValue="true" />
+        
     <ListPreference
         android:title="@string/preference_2"
         android:key="preference_2"

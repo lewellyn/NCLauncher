@@ -151,6 +151,6 @@
     <!-- Themes -->
     <string name="preference_1" translatable="false">Auto-rotate screen</string>
     <string name="preference_2" translatable="false"># of Unicorns</string><!-- Home screen(s) -->
-    <string name="preference_3" translatable="false">Clouds</string>
+    <string name="preference_3" translatable="false">Change wallpaper</string>
     
 </resources>
