@@ -56,12 +56,7 @@
         <item name="android:paddingRight">10dip</item>
     </style>
     
-    <style name="Animation.Popup" parent="android:Animation"> 
-        <item name="android:windowEnterAnimation">@anim/fade_in_apps</item> 
-        <item name="android:windowExitAnimation">@anim/fade_out_apps</item> 
-    </style> 
-    
-        <style name="ChooserText">
+    <style name="ChooserText">
         <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@android:color/white</item>

@@ -148,9 +148,10 @@
     <string name="blur" translatable="false">Blur</string>
     <string name="ninja" translatable="false">Ninja</string>
     
-    <!-- Themes -->
-    <string name="preference_1" translatable="false">Auto-rotate screen</string>
-    <string name="preference_2" translatable="false"># of Unicorns</string><!-- Home screen(s) -->
-    <string name="preference_3" translatable="false">Change wallpaper</string>
+    <!-- Preferences (Keys from http://www.random.org/strings/)-->
+    <string name="preference_1">Auto-rotate screen</string>
+    <string name="preference_1_key" translatable="false">hvgZBpdwE8</string>
+    <string name="preference_2">Change wallpaper</string>
+    <string name="preference_2_key" translatable="false">2LSNY2FTAX</string>
     
 </resources>

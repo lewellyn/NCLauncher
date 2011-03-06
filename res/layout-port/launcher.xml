@@ -47,7 +47,7 @@
     <com.handlerexploit.launcher_reloaded.DeleteZone
         android:id="@+id/delete_zone"
         android:layout_width="fill_parent"
-        android:layout_height="49dip"
+        android:layout_height="42dip"
 
         android:scaleType="center"
         android:background="@drawable/clear_selector"

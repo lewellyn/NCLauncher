@@ -17,6 +17,7 @@
 package org.adw.launcher;
 
 import android.content.Context;
+import android.content.res.Resources;
 import android.graphics.Canvas;
 import android.graphics.Matrix;
 import android.graphics.Paint;
@@ -51,13 +52,10 @@ public class ResizeViewHandler extends View {
     public static final int MOVE             = (1 << 5);
 
     private void init() {
-        android.content.res.Resources resources = getResources();
-        mResizeDrawableWidth =
-                resources.getDrawable(R.drawable.camera_crop_width);
-        mResizeDrawableHeight =
-                resources.getDrawable(R.drawable.camera_crop_height);
-        mResizeDrawableDiagonal =
-                resources.getDrawable(R.drawable.indicator_autocrop);
+        Resources r = getResources();
+        mResizeDrawableWidth = r.getDrawable(R.drawable.camera_crop_width);
+        mResizeDrawableHeight = r.getDrawable(R.drawable.camera_crop_height);
+        mResizeDrawableDiagonal = r.getDrawable(R.drawable.indicator_autocrop);
     }
 
     boolean mIsFocused;

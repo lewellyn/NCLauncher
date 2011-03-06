@@ -16,8 +16,6 @@
 
 package org.adw.launcher;
 
-//import org.adw.launcher.catalogue.CataGridView;
-
 import com.handlerexploit.launcher_reloaded.ApplicationInfo;
 import com.handlerexploit.launcher_reloaded.ApplicationsAdapter;
 import com.handlerexploit.launcher_reloaded.DragController;
@@ -38,16 +36,16 @@ import android.widget.GridView;
 import android.widget.ListAdapter;
 import android.widget.TextView;
 
-public class AllAppsGridView extends GridView implements AdapterView.OnItemClickListener, AdapterView.OnItemLongClickListener, DragSource/*, Drawer */{
+public class AllAppsGridView extends GridView implements AdapterView.OnItemClickListener, AdapterView.OnItemLongClickListener, DragSource {
 
 	private DragController mDragger;
 	private Launcher mLauncher;
 	private Paint mPaint;
 	// ADW: Animation vars
-	private final static int CLOSED = 1;
-	private final static int OPEN = 2;
-	private final static int CLOSING = 3;
-	private final static int OPENING = 4;
+	private final int CLOSED = 1;
+	private final int OPEN = 2;
+	private final int CLOSING = 3;
+	private final int OPENING = 4;
 	private int mStatus = CLOSED;
 	private boolean isAnimating;
 	private long startTime;
@@ -119,14 +117,12 @@ public class AllAppsGridView extends GridView implements AdapterView.OnItemClick
 			return false;
 		}
 
-		ApplicationInfo app = (ApplicationInfo) parent
-				.getItemAtPosition(position);
+		ApplicationInfo app = (ApplicationInfo) parent.getItemAtPosition(position);
 		app = new ApplicationInfo(app);
 
 		mDragger.startDrag(view, this, app, DragController.DRAG_ACTION_COPY);
-		if (!mLauncher.isDockBarOpen()) {
+		if (!mLauncher.isDockBarOpen())
 		    mLauncher.AnimatedDrawerClose(true);
-		}
 
 		return true;
 	}
@@ -140,8 +136,6 @@ public class AllAppsGridView extends GridView implements AdapterView.OnItemClick
 
 	public void setLauncher(Launcher launcher) {
 		mLauncher = launcher;
-		/*setSelector(IconHighlights.getDrawable(mLauncher,
-				IconHighlights.TYPE_DESKTOP));*/
 	}
 
 	/**
@@ -288,59 +282,6 @@ public class AllAppsGridView extends GridView implements AdapterView.OnItemClick
 		}
 		canvas.restoreToCount(saveCount);
 		return true;
-	}
-
-	/**
-	 * Open/close public methods
-	 */
-	public void open(boolean animate) {
-		mBgColor = AlmostNexusSettingsHelper.getDrawerColor(mLauncher);
-		mTargetAlpha = Color.alpha(mBgColor);
-		mDrawLabels = AlmostNexusSettingsHelper.getDrawerLabels(mLauncher);
-		mFadeDrawLabels = AlmostNexusSettingsHelper
-				.getFadeDrawerLabels(mLauncher);
-        if(getAdapter()==null)
-        	animate=false;
-        else if(getAdapter().getCount()<=0)
-        	animate=false;
-		if (animate) {
-			if (mFadeDrawLabels && mDrawLabels) {
-                ListAdapter adapter = getAdapter();
-                if (adapter instanceof ApplicationsAdapter)
-                    ((ApplicationsAdapter)adapter).setChildDrawingCacheEnabled(true);
-			}
-			mBgAlpha = 0;
-			isAnimating = true;
-			mStatus = OPENING;
-		} else {
-			mBgAlpha = mTargetAlpha;
-			isAnimating = false;
-			mStatus = OPEN;
-		}
-		startTime = 0;
-		this.setVisibility(View.VISIBLE);
-		invalidate();
-	}
-
-	public void close(boolean animate) {
-        if(getAdapter()==null)
-        	animate=false;
-        else if(getAdapter().getCount()<=0)
-        	animate=false;
-		if (animate) {
-			mStatus = CLOSING;
-			isAnimating = true;
-		} else {
-			mStatus = CLOSED;
-			isAnimating = false;
-			mLauncher.getWorkspace().clearChildrenCache();
-			setVisibility(View.GONE);
-		}
-		startTime = 0;
-		invalidate();
-	}
-	public void setAnimationSpeed(int speed) {
-		mAnimationDuration = speed;
 	}
 
 	public void updateAppGrp() {

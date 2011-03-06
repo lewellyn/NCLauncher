@@ -5,24 +5,12 @@
 
     <CheckBoxPreference
         android:title="@string/preference_1"
-        android:key="preference_1"
+        android:key="@string/preference_1_key"
         android:defaultValue="false" />
         
     <CheckBoxPreference
-        android:title="@string/preference_3"
-        android:key="preference_3"
-        android:defaultValue="true" />
-        
-    <ListPreference
         android:title="@string/preference_2"
-        android:key="preference_2"
-        android:entries="@array/screen_number_entries"
-        android:entryValues="@array/screen_number_entries"
-        android:defaultValue="5" />
-        
-   	<!-- <CheckBoxPreference
-        android:title="@string/preference_3"
-        android:key="@string/preference_3"
-        android:defaultValue="false" /> -->
+        android:key="@string/preference_2_key"
+        android:defaultValue="true" />
 
 </PreferenceScreen>
