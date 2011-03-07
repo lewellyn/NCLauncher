@@ -78,7 +78,7 @@
         
         <activity
             android:name="Launcher"
-            android:launchMode="singleInstance"
+            android:launchMode="singleTask"
             android:clearTaskOnLaunch="true"
             android:stateNotNeeded="true"
             android:theme="@android:style/Theme.Wallpaper.NoTitleBar"
@@ -130,13 +130,13 @@
 
         <activity
             android:name="Preferences"
-            android:launchMode="singleInstance"
+            android:launchMode="singleTask"
             android:screenOrientation="unspecified"
             android:theme="@android:style/Theme.Dialog" />
             
         <activity 
         	android:name=".Styles"
-        	android:launchMode="singleInstance"
+        	android:launchMode="singleTask"
             android:theme="@style/Chooser"
             android:configChanges="orientation|keyboardHidden"
             android:screenOrientation="portrait" />
