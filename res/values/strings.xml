@@ -157,5 +157,7 @@
     <string name="preference_3_key" translatable="false">zjuNhyRn1q</string>
     <string name="preference_4">Hide screen indicators</string>
     <string name="preference_4_key" translatable="false">1OprmMIWtQ</string>
+    <string name="preference_5">Enable screen bounce</string>
+    <string name="preference_5_key" translatable="false">CalHW8GlsT</string>
     
 </resources>
