@@ -17,5 +17,10 @@
         android:title="@string/preference_3"
         android:key="@string/preference_3_key"
         android:defaultValue="false" />
+        
+    <CheckBoxPreference
+        android:title="@string/preference_4"
+        android:key="@string/preference_4_key"
+        android:defaultValue="false" />
 
 </PreferenceScreen>
