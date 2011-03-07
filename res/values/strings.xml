@@ -147,6 +147,7 @@
     <string name="espresso" translatable="false">Espresso</string>
     <string name="blur" translatable="false">Blur</string>
     <string name="ninja" translatable="false">Ninja</string>
+    <string name="samurai" translatable="false">Samurai</string>
     
     <!-- Preferences (Keys from http://www.random.org/strings/)-->
     <string name="preference_1">Auto-rotate screen</string>

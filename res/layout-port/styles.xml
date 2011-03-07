@@ -599,4 +599,51 @@
 	
 </RelativeLayout>
 
+<!-- Samurai theme -->
+<RelativeLayout
+		android:id="@+id/samurai_theme"
+		android:visibility="gone" 
+        android:layout_width="fill_parent"
+        android:layout_height="56dip"
+        android:layout_gravity="bottom|center"
+        android:paddingTop="10dip" >
+
+		<RelativeLayout android:id="@+id/samurai_center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" >
+
+        	<ImageView
+        			android:background="@drawable/samurai_middle_fill"
+            		android:src="@drawable/samurai_middle_icon"
+	    			android:layout_height="wrap_content"
+	    			android:layout_width="wrap_content" 
+	    			android:layout_centerInParent="true"
+	    			android:onClick="onButtonDrawerOpen" />
+
+		</RelativeLayout>
+
+		<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/samurai_center">
+
+			<ImageView
+					android:background="@drawable/samurai_left_fill"
+            		android:src="@drawable/samurai_left_icon"
+	    			android:layout_height="wrap_content"
+	    			android:layout_width="wrap_content" 
+	    			android:layout_centerInParent="true"
+	    			android:onClick="onButtonDialer" />
+
+		</RelativeLayout>
+
+		<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/samurai_center">
+
+			<ImageView
+					android:background="@drawable/samurai_right_fill"
+            		android:src="@drawable/samurai_right_icon"
+	    			android:layout_height="wrap_content"
+	    			android:layout_width="wrap_content" 
+	    			android:layout_centerInParent="true"
+	    			android:onClick="onButtonSMS" />
+	    			
+	</RelativeLayout>
+
+</RelativeLayout>
+
 </RelativeLayout>
