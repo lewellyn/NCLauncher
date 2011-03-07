@@ -153,5 +153,7 @@
     <string name="preference_1_key" translatable="false">hvgZBpdwE8</string>
     <string name="preference_2">Change wallpaper</string>
     <string name="preference_2_key" translatable="false">2LSNY2FTAX</string>
+    <string name="preference_3">Hide icon labels</string>
+    <string name="preference_3_key" translatable="false">0000000000</string>
     
 </resources>
