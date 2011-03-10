@@ -57,7 +57,6 @@ public class AllAppsGridView extends GridView implements AdapterView.OnItemClick
 	private boolean shouldDrawLabels = false;
 	private int mAnimationDuration = 800;
 	private int mBgColor = 0xFF000000;
-	private boolean mDrawLabels = true;
 	private boolean mFadeDrawLabels = false;
 	private float mLabelFactor;
     private int distH;
@@ -192,8 +191,7 @@ public class AllAppsGridView extends GridView implements AdapterView.OnItemClick
 				}
 			}
 		}
-		shouldDrawLabels = mFadeDrawLabels && mDrawLabels
-				&& (mStatus == OPENING || mStatus == CLOSING);
+		shouldDrawLabels = mFadeDrawLabels && !Launcher.hideLabels && (mStatus == OPENING || mStatus == CLOSING);
 		float porcentajeScale = 1.0f;
 		if (isAnimating) {
 			porcentajeScale = 1.0f - ((mScaleFactor - 1) / 3.0f);
@@ -258,7 +256,7 @@ public class AllAppsGridView extends GridView implements AdapterView.OnItemClick
 			tmp[1].draw(canvas);
 			canvas.restore();
 		} else {
-			if (mDrawLabels) {
+			if (!Launcher.hideLabels) {
 				child.setDrawingCacheEnabled(true);
 				if (child.getDrawingCache() != null) {
 					mPaint.setAlpha(255);
