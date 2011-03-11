@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.handlerexploit.launcher_reloaded" android:versionName="1.5.1.1" android:versionCode="63">
+    package="com.handlerexploit.launcher_reloaded" android:versionCode="64" android:versionName="2.0">
 
     <permission
         android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
@@ -113,7 +113,7 @@
 
         <!-- Intent received used to uninstall shortcuts from other applications -->
         <receiver
-            android:name=".UninstallShortcutReceiver"
+            android:name="UninstallShortcutReceiver"
             android:permission="com.android.launcher.permission.UNINSTALL_SHORTCUT">
             <intent-filter>
                 <action
@@ -135,7 +135,7 @@
             android:theme="@android:style/Theme.Dialog" />
             
         <activity 
-        	android:name=".Styles"
+        	android:name="Styles"
         	android:launchMode="singleTask"
             android:theme="@style/Chooser"
             android:configChanges="orientation|keyboardHidden"
