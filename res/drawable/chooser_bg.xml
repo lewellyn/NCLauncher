@@ -19,7 +19,7 @@
     <gradient android:type="radial"
         android:startColor="#4C4C4C"
         android:endColor="@android:color/transparent"
-        android:gradientRadius="750"
+        android:gradientRadius="450"
         android:centerX="0.5"
         android:centerY="0.45"/>
 </shape>
