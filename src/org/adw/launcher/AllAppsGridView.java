@@ -45,6 +45,8 @@ public class AllAppsGridView extends GridView implements AdapterView.OnItemClick
 		mPaint.setDither(false);
 		mLabelPaint = new Paint();
 		mLabelPaint.setDither(false);
+		setDrawingCacheEnabled(true);
+		setDrawingCacheQuality(DRAWING_CACHE_QUALITY_AUTO);
 	}
 
 	@Override
