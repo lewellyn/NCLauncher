@@ -41,8 +41,6 @@
             layout="@layout/workspace_screen" />
             
     </com.handlerexploit.launcher_reloaded.Workspace>
-    
-    <include layout="@layout/styles" />
 
 	<com.handlerexploit.launcher_reloaded.DeleteZone 
    		android:id="@+id/delete_zone"
@@ -68,6 +66,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />
         
+    <include layout="@layout/styles" />
     <include layout="@layout/popup" />
 
 </com.handlerexploit.launcher_reloaded.DragLayer>
