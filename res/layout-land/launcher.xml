@@ -47,10 +47,10 @@
     <com.handlerexploit.launcher_reloaded.DeleteZone
         android:id="@+id/delete_zone"
         android:layout_width="46dip"
-        android:layout_height="wrap_content"
+        android:layout_height="fill_parent"
         android:scaleType="center"
+       	android:src="@drawable/trashcan"
         android:background="@drawable/trashcan_d"
-		android:src="@drawable/trashcan"
         android:layout_gravity="right|center_vertical"
         android:visibility="invisible"
         launcher:direction="vertical" />
