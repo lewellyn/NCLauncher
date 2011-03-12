@@ -281,7 +281,7 @@ public class CustomScroller  {
         mDeltaY = dy;
         mDurationReciprocal = 1.0f / (float) mDuration;
         // This controls the viscous fluid effect (how much of it)
-        mViscousFluidScale = 8.0f;
+        mViscousFluidScale = 16.0f;
         // must be set to 1.0 (used in viscousFluid())
         mViscousFluidNormalize = 1.0f;
         mViscousFluidNormalize = 1.0f / viscousFluid(1.0f);
