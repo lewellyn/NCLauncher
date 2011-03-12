@@ -70,7 +70,7 @@
 
     <application
         android:name="LauncherApplication"
-        android:label="@string/application_name"
+        android:label="@string/helauncher"
         android:icon="@drawable/icon"
         android:debuggable="false">
         

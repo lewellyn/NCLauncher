@@ -44,17 +44,14 @@
     
     <include layout="@layout/styles" />
 
-    <com.handlerexploit.launcher_reloaded.DeleteZone
-        android:id="@+id/delete_zone"
-        android:layout_width="fill_parent"
+	<com.handlerexploit.launcher_reloaded.DeleteZone 
+   		android:id="@+id/delete_zone"
+        android:layout_width="wrap_content"
         android:layout_height="42dip"
-
         android:scaleType="center"
-        android:background="@drawable/clear_selector"
-		android:src="@drawable/trashcan"
+       	android:background="@drawable/trashcan_d"
         android:layout_gravity="bottom|center_horizontal"
         android:visibility="invisible"
-
         launcher:direction="horizontal" />
 
     <com.handlerexploit.launcher_reloaded.ScreenIndicator
