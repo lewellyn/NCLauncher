@@ -647,4 +647,15 @@
 
 </RelativeLayout>
 
+<!-- Pro theme -->
+<RelativeLayout
+		android:id="@+id/pro_theme"
+		android:visibility="gone" 
+        android:layout_width="fill_parent"
+        android:layout_height="56dip"
+        android:layout_gravity="bottom|center"
+        android:paddingTop="2dip" >
+        
+</RelativeLayout>
+
 </com.handlerexploit.launcher_reloaded.AnimatedDrawer>
