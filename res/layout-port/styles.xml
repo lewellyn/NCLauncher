@@ -647,4 +647,74 @@
 
 </RelativeLayout>
 
+<!-- Pro theme -->
+<RelativeLayout
+		android:id="@+id/pro_theme"
+		android:visibility="gone" 
+        android:layout_width="fill_parent"
+        android:layout_height="56dip"
+        android:layout_gravity="bottom|center"
+        android:paddingTop="2dip" >
+        
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        
+            	<com.handlerexploit.launcher_reloaded.MiniApplication 
+            			android:layout_gravity="center" 
+            			android:id="@+id/quick_shortcut_0" 
+            			android:focusable="true" 
+            			android:clickable="true" 
+            			android:layout_width="fill_parent" 
+            			android:layout_height="56.0dip" 
+            			android:src="@drawable/phone_button" 
+            			android:scaleType="center" 
+            			android:layout_weight="1.0" />
+            			
+            	<com.handlerexploit.launcher_reloaded.MiniApplication 
+            			android:layout_gravity="center" 
+            			android:id="@+id/quick_shortcut_1" 
+            			android:focusable="true" 
+            			android:clickable="true" 
+            			android:layout_width="fill_parent" 
+            			android:layout_height="56.0dip" 
+            			android:src="@drawable/contacts_button" 
+            			android:scaleType="center" 
+            			android:layout_weight="1.0" />
+            			
+            	<com.handlerexploit.launcher_reloaded.MiniApplication 
+            			android:layout_gravity="center" 
+            			android:id="@+id/quick_shortcut_2" 
+            			android:focusable="true" 
+            			android:clickable="true" 
+            			android:layout_width="fill_parent" 
+            			android:layout_height="56.0dip" 
+            			android:src="@drawable/all_apps_button" 
+            			android:scaleType="center" 
+            			android:layout_weight="1.0" />
+            			
+            	<com.handlerexploit.launcher_reloaded.MiniApplication 
+            			android:layout_gravity="center" 
+            			android:id="@+id/quick_shortcut_3" 
+            			android:focusable="true" 
+            			android:clickable="true" 
+            			android:layout_width="fill_parent" 
+            			android:layout_height="56.0dip" 
+            			android:src="@drawable/sms_button" 
+            			android:scaleType="center" 
+            			android:layout_weight="1.0" />
+            			
+            	<com.handlerexploit.launcher_reloaded.MiniApplication 
+            			android:layout_gravity="center" 
+            			android:id="@+id/quick_shortcut_4" 
+            			android:focusable="true" 
+            			android:clickable="true" 
+            			android:layout_width="fill_parent" 
+            			android:layout_height="56.0dip" 
+            			android:src="@drawable/browser_button" 
+            			android:scaleType="center" 
+            			android:layout_weight="1.0" />
+            			
+        </LinearLayout>
+        
+</RelativeLayout>
+
 </com.handlerexploit.launcher_reloaded.AnimatedDrawer>
