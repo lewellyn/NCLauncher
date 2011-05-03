@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.handlerexploit.launcher_reloaded" android:versionName="1.5.3" android:versionCode="65">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="0.0.1" android:versionCode="1" package="net.geekbakery.nclauncher">
 
 	<uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
@@ -16,9 +16,8 @@
 
     <application
         android:name="LauncherApplication"
-        android:label="@string/helauncher"
         android:icon="@drawable/icon"
-        android:debuggable="false">
+        android:debuggable="false" android:label="@string/nclauncher" android:enabled="true">
         
         <activity
             android:name="Launcher"
